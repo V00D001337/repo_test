@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Programowanie w JAVASCRIPT - template">
+  <meta name="author" content="dr inż. Jacek Paluszak">
+  <link rel="icon" href="img/favicon.ico">
+
+  <title>Programowanie w JAVASCRIPT</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <link href="css/navbar-fixed-top.css" rel="stylesheet">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/ie-emulation-modes-warning.js"></script>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logoPWSZ.png" height="40" alt=""></a>
+        <a class="navbar-brand logotext" href="#">PWSZ Lab</a>
+      </div>
+
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#main-page" class="btn btn-primary" title="Strona główna">
+              <span class="glyphicon glyphicon-home"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#projekt1">Projekt 1</a>
+          </li>
+          <li>
+            <a href="#projekt2">Projekt 2</a>
+          </li>
+          <li>
+            <a href="#form" data-toggle="modal" data-target="#ModalForm">Kontakt</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opcje
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Akcja 1</a>
+              </li>
+              <li>
+                <a href="#">Akcja 2</a>
+              </li>
+              <li>
+                <a href="#">Akcja 3</a>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Linki</li>
+              <li>
+                <a href="#">Link 1</a>
+              </li>
+              <li>
+                <a href="#">Link 2</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+
+  </nav>
+
+  <!-- Main container -->
+  <section id="main-page">
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>Programowanie w JAVASCRIPT</h1>
+        <div class="row">
+          <div class="col-md-2" align="left">
+            <p>nazwisko:</p>
+          </div>
+          <div class="col-md-4">
+            <p>Kosowski</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2" align="left">
+            <p>imię:</p>
+          </div>
+          <div class="col-md-4">
+            <p>Karol</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2" align="left">
+            <p>grupa:</p>
+          </div>
+          <div class="col-md-4">
+            <p>1</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2" align="left">
+            <p>email:</p>
+          </div>
+          <div class="col-md-4">
+            <p>kosowski.kar@gmail.com</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2" align="left">
+            <p>nr indeksu:</p>
+          </div>
+          <div class="col-md-4">
+            <p>17941</p>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+  <!-- /container -->
+
+  <section id="projekt1">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Projekt 1</h1>
+        <p>Miejsce na projekt laboratoryjny</p>
+        <p id = "wspol_oknax"></p>
+        <p id = "wspol_oknay"></p>
+        <p id = "wspol_monix"></p>
+        <p id = "wspol_moniy"></p>
+        <h1>FAQ</h1>
+        <h2>Jak działa Paczka w RUCHu</h2>
+        <p class = "answer">
+        Paczka w RUCHu to usługa logistyczna umożliwiająca odbieranie paczek w ponad 3700 kiosków i saloników RUCH oraz punktów partnerskich, a także nadawanie paczek w całej sieci RUCH. Punkty zawsze są umiejscowione w dogodnych lokalizacjach - na osiedlach miejskich, w centrach handlowych, węzłach komunikacyjnych oraz w mniejszych miejscowościach i na terenach wiejskich - tym samym Konsument ma zawsze dogodny dostęp do swojej paczki.
+        </p>
+        <h2>Jak nadać Paczkę w RUCHu</h2>
+        <p class = "answer">
+            Wejdź na stronę NADAJ PACZKĘ i wypełnij formularz. Na pierwszym ekranie podaj dane Nadawcy i wybierz kiosk lub salonik w którym nadasz paczkę. Na drugim ekranie uzupełnij dane adresowe Odbiorcy i wskaż kiosk lub salonik do którego paczka ma być dostarczona. Na trzecim ekranie zostanie wygenerowany list przewozowy, który należy wydrukować i nakleić na paczkę, lub możesz wygenerować kod nadania, który nastepnie należy sobie zapisać. Z tak zaadresowaną paczką lub kodem nadania udaj się do punktu RUCH i poproś o nadanie.
+        </p>
+        <h2>Paczka w RUCHu kto dostarcza</h2>
+        <p class = "answer">
+            Dostawa Paczek utworzona jest na bazie ogólnopolskiej sieci logistycznej oraz punktów sprzedaży RUCHu. Paczki są dostarczane przez kierowców RUCH S.A., nowoczesnymi samochodami, razem z prasą od rana do każdego punktu RUCH oraz Punktów Partnerskich.
+        </p>
+        <h2>Paczka w RUCHu numer listu przewozowego</h2>
+        <p class = "answer">
+            Każda paczka posiada numer listu przewozowego. Dzięki niemu odbywa się sortowanie paczek i kierowanie ich do właściwego punktu odbioru. Ponadto, numer listu przewozowego pozwala Ci śledzić swoją paczkę.
+        </p>
+        <script>
+          $('.answer').hide();
+        
+          function rozwin(){
+            $(this).next('.answer').fadeIn();
+            $(this).addClass("h2_minus");
+            $(this).one("click", zwin);
+          }
+
+          function zwin(){
+            $(this).next('.answer').fadeOut();
+            $(this).removeClass("h2_minus");
+            $(this).one("click", rozwin);
+          }
+
+          $('h2').one("click", rozwin);
+          $('h2').click(wspolrzedne);
+
+          $('h2').hover(
+            function(){
+              $(this).css("font-weight","bold");
+            },
+            function(){
+              $(this).css("font-weight","normal");
+            }
+          );
+
+           function wspolrzedne(evt){
+            var xPos = evt.pageX;
+            var yPos = evt.pageY;
+            var xMon = evt.screenX;
+            var yMon = evt.screenY;
+            document.getElementById("wspol_oknax").innerHTML = "Odległość od lewej krawędzi okna przeglądarki: " + xPos;
+            document.getElementById("wspol_oknay").innerHTML = "Odległość od górnej krawędzi okna przeglądarki: " + yPos;
+            document.getElementById("wspol_monix").innerHTML = "Odległość od lewej krawędzi monitora: " + xMon;
+            document.getElementById("wspol_moniy").innerHTML = "Odległość od górnej krawędzi monitora: " + yMon;
+          }
+
+        </script>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projekt2">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Projekt 2</h1>
+        <p>Miejsce na projekt laboratoryjny</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="margin-top:5%">
+      <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal">
+        Polityka prywatności
+      </button>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Polityka prywatności</h4>
+        </div>
+        <div class="modal-body">
+          polityka prywatności...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-warning btn-sm" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="ModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Kontakt</h4>
+        </div>
+        <div class="modal-body">
+          <section id="form" style="margin-top: 5%">
+            <form action="index.html#kontakt" method="post" onsubmit="return checkForm();">
+              <fieldset>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="hide" id="errorName">Podanie imienia jest wymagane!</p>
+                  </div>
+                </div>
+                <div class="row" id="success">
+                  <div class="col-md-2" align="right">
+                    <label class="control-label" for="contactName">Imię</label>
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text" class="form-control " id="contactName" aria-describedby="inputSuccess5Status" onblur="checkName()" />
+                    <span class="hide" aria-hidden="true" id="true"></span>
+                    <span id="inputSuccess5Status" class="sr-only">(success)</span>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="hide" id="errorLastName">Podanie nazwiska jest wymagane!</p>
+                  </div>
+                </div>
+                <div class="row" id="success2">
+                  <div class="col-md-2" align="right">
+                    <label class="control-label" for="contactLastName">Nazwisko</label>
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text" class="form-control " id="contactLastName" aria-describedby="inputSuccess5Status" onblur="checkLastName()"
+                    />
+                    <span class="hide" aria-hidden="true" id="true2"></span>
+                    <span id="inputSuccess5Status2" class="sr-only">(success)</span>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="hide" id="errorEmail">Podanie emaila jest wymagane!</p>
+                    <p class="hide" id="errorEmail2">Błędny email!</p>
+                  </div>
+                </div>
+                <div class="row" id="success3">
+                  <div class="col-md-2" align="right">
+                    <label class="control-label" for="contactEmail">Email</label>
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text" class="form-control " id="contactEmail" aria-describedby="inputSuccess5Status" onblur="checkEmail()" />
+                    <span class="hide" aria-hidden="true" id="true3"></span>
+                    <span id="inputSuccess5Status3" class="sr-only">(success)</span>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-2" align="right">
+                    <label for="information">Informacje</label>
+                  </div>
+                  <div class="col-md-4">
+                    <textarea name="Informacje" cols="30" rows="7" id="Info" maxlength="250"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row ">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-3">
+                    <input class="btn btn-primary" type="submit" value="Wyślij" />
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-warning btn-sm" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+  <script src="js/forms.js"></script>
+</body>
+
+</html>
